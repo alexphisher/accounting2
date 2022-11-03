@@ -33,6 +33,8 @@
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <defaultRoles>Role.оуп_ОсновнаяРоль</defaultRoles>
+  <vendor>alexphisher91@mail.ru</vendor>
+  <version>2.0.10</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
   <compatibilityMode>8.3.17</compatibilityMode>
