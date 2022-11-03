@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8f4c7663-a398-4839-a06f-59ce4e56544c">
+  <name>оуп_MES</name>
+  <synonym>
+    <key>ru</key>
+    <value>MES</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>AccumulationRegister.оуп_ПартииВыпускаПродукции</content>
+  <content>AccumulationRegister.оуп_ДанныеВыпускаПродукции</content>
+  <content>AccumulationRegister.оуп_ДанныеМатериаловВыпуска</content>
+  <subsystems>Настройки</subsystems>
+  <subsystems>ДанныеПоПроизводству</subsystems>
+  <subsystems>ПриемПродукции</subsystems>
+  <subsystems>ПередачаВПроизводство</subsystems>
+</mdclass:Subsystem>

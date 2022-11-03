@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="22887fa6-5446-4883-bbab-69427ad68a97">
+  <name>оуп_ПриемПродукции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Прием продукции</value>
+  </synonym>
+</mdclass:Role>

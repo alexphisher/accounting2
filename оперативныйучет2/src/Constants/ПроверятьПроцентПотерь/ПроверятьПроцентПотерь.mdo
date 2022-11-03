@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7d5f6afd-3483-4a19-9002-dfc09175de5f">
+  <producedTypes>
+    <managerType typeId="d0bc585e-d7e6-427a-a0e3-fdc7bf62764f" valueTypeId="13de544a-a860-488b-8602-03a3df4ab0d2"/>
+    <valueManagerType typeId="3edb200c-65a0-4e94-8a30-871951fbcaad" valueTypeId="6e19dc04-3871-428c-a008-e62c0335ff3e"/>
+    <valueKeyType typeId="44ff32f7-b03b-484e-a8bb-82ec8da12730" valueTypeId="34545cea-e44b-46a5-8323-7ee386cb7a1b"/>
+  </producedTypes>
+  <name>ПроверятьПроцентПотерь</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверять процент потерь</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

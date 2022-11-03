@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="33e35453-5642-4e26-b123-cbfb219501a9">
+  <producedTypes>
+    <managerType typeId="603a1ec1-2619-465e-8f68-40420ef72268" valueTypeId="ecf4174d-cc50-4653-a8a1-2979e986fd33"/>
+    <valueManagerType typeId="d1d499fa-5776-4c9d-924f-c5e8be4759c2" valueTypeId="afd6f843-d3f3-4774-888b-5ab9971a2607"/>
+    <valueKeyType typeId="6746843e-8ab3-4dd2-96cf-fe927ce057b9" valueTypeId="694057bf-fc0f-456d-bdbc-87250b019fee"/>
+  </producedTypes>
+  <name>ВесГофрокороб</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вес гофрокороб</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+      <scale>3</scale>
+    </numberQualifiers>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

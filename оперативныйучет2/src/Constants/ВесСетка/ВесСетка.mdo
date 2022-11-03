@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5b1d8ea6-3a9f-4c07-88fd-cd9419eee16a">
+  <producedTypes>
+    <managerType typeId="3c64aac2-cc6b-41ef-a71e-15a6de3c7a7e" valueTypeId="9aafa151-d6ff-4e2b-863c-4a939f597540"/>
+    <valueManagerType typeId="ad463e52-6279-4f7a-b67f-7f96a2bfb827" valueTypeId="629d7fea-d862-4121-bb89-8251f74d1936"/>
+    <valueKeyType typeId="4e690271-bac9-4d5d-8765-817a1127688a" valueTypeId="dba22ea2-bde3-412c-9cb4-41ef1dead94f"/>
+  </producedTypes>
+  <name>ВесСетка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вес сетка</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+      <scale>3</scale>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

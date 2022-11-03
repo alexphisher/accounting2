@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d6fc932d-3251-4f00-bae1-1aadb2b4a71a">
+  <name>ПередачаВПроизводство</name>
+  <synonym>
+    <key>ru</key>
+    <value>Передача в производство</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.оуп_ПакетДокументовПередачиПереработчику</content>
+  <parentSubsystem>Subsystem.оуп_MES</parentSubsystem>
+</mdclass:Subsystem>

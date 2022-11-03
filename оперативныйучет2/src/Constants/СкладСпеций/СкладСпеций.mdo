@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f1631769-6fec-46c9-b08e-b15fbcee4926">
+  <producedTypes>
+    <managerType typeId="8414e072-c8a8-4b36-a43a-f257456b4822" valueTypeId="baa95b9e-90ec-49f8-a91e-ff39a33ee2de"/>
+    <valueManagerType typeId="7214d5ed-78d2-4ee3-962a-8ef23d5c8a20" valueTypeId="b2a01c89-7fa1-4d11-b38a-adce4237a605"/>
+    <valueKeyType typeId="31098d24-f89b-4705-a356-8d6f6809597a" valueTypeId="6ac4732d-418e-4cc9-8eff-0ddb4df593e2"/>
+  </producedTypes>
+  <name>СкладСпеций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Склад специй</value>
+  </synonym>
+  <comment>Склад хранения специй на производстве</comment>
+  <type>
+    <types>CatalogRef.Склады</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

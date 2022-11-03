@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9da9e677-a004-47ae-a516-a0c777354bc1">
+  <producedTypes>
+    <objectType typeId="c4c697e9-7d9f-4664-b5d6-968cee666012" valueTypeId="5981f857-c94c-42fc-b848-262632a7dec0"/>
+    <managerType typeId="04c95a5e-2d8f-4b64-8dfd-04a9f616aee9" valueTypeId="7f4083e1-2c9c-45cb-9a46-20d198e41971"/>
+  </producedTypes>
+  <name>оуп_ЛинияРаспила</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оуп линия распила</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.оуп_ЛинияРаспила.Form.Форма</defaultForm>
+  <forms uuid="081fc34c-3e5a-48bc-b8cb-6948f200b017">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="58ef95eb-3649-4585-820e-fcf832a146f2">
+    <name>ЛинияРаспила</name>
+    <synonym>
+      <key>ru</key>
+      <value>Линия распила</value>
+    </synonym>
+    <group>FormNavigationPanelSeeAlso</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

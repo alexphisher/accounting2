@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1bbb4ad3-b0ce-465f-ba9b-faea82bcdec7">
+  <producedTypes>
+    <managerType typeId="5ba7bfb9-5216-4122-bd6b-932e5ffe4464" valueTypeId="0bba4cfb-92f4-4862-999b-d4f1a2a6858f"/>
+    <valueManagerType typeId="ecc065b5-f707-4d23-b40c-641bd48d4e0b" valueTypeId="7f615452-a41a-4ba8-9227-4d529045b1ef"/>
+    <valueKeyType typeId="06278a65-f08f-49e6-9c98-a9c0e99b9249" valueTypeId="b12133cb-f936-4c7f-b3f4-790e0b7a2cb2"/>
+  </producedTypes>
+  <name>ПроцентДопустимогоОтклонения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Процент допустимого отклонения</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>2</precision>
+      <scale>1</scale>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

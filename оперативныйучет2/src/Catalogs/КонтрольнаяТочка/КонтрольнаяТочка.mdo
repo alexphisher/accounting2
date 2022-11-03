@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4a61ad96-5688-430a-9a5f-3f7488d23027">
+  <producedTypes>
+    <objectType typeId="f3421410-a360-4ba8-84a3-46fa3e1b4efd" valueTypeId="bbcefe1d-e1f7-4f03-8e6e-9b9f23ea81bc"/>
+    <refType typeId="cd447ddf-777a-44af-a084-e295f613e32e" valueTypeId="e445adae-0b76-4c21-82d0-687e8d948b31"/>
+    <selectionType typeId="93761d67-655a-4a4e-8a6e-c9379d9821ae" valueTypeId="51821575-3876-4dd3-ac30-62dcafbf5a03"/>
+    <listType typeId="eb8620cc-a3de-4d5c-b242-96708b183092" valueTypeId="e8ab1248-76bc-4544-9bfe-598d29b24013"/>
+    <managerType typeId="472f95ed-1000-4748-8f09-de7927fc2241" valueTypeId="7ad9a5bc-827c-4174-9e16-dd54e6e483a8"/>
+  </producedTypes>
+  <name>КонтрольнаяТочка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контрольная точка</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.КонтрольнаяТочка.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.КонтрольнаяТочка.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Контрольня точка этапа производства</value>
+  </objectPresentation>
+  <hierarchical>true</hierarchical>
+  <hierarchyType>HierarchyOfItems</hierarchyType>
+  <limitLevelCount>true</limitLevelCount>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="156a6fed-3bdb-498a-9af5-e2faf46a04b2">
+    <name>МастерТочки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мастер точки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d5d69c41-6f51-463c-b5ce-747f51711069">
+    <name>ТипТочки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип точки</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипыКонтрольныхТочек</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7ff594f3-3ee9-4771-932b-3741f6da6bee">
+    <name>Склад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Склады</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c2e56838-35c6-4f19-91a3-1663ab4d2621">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтруктураПредприятия</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2e98f927-3ac9-4067-84c5-6a44fc7f10fe">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="210b57ff-c401-4606-a821-6250744d30cb">
+    <name>Весы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Весы</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВесыКонтрольныхТочек</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="45c06d9f-8532-49f3-88b1-50aa6329b336">
+    <name>ПроверятьОстаткиМатериалов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверять остатки материалов</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="abca1353-2e86-41b4-ba74-072cb2c84ec7">
+    <producedTypes>
+      <objectType typeId="1c2ef921-da92-4c74-83ed-200fa5753060" valueTypeId="7d78088a-981f-42d9-9103-54b5d38f42e5"/>
+      <rowType typeId="3f049fc5-7958-4db4-99d9-d84bb0e5c03a" valueTypeId="4da2d75e-86d2-447e-9331-56d1cfecf2f8"/>
+    </producedTypes>
+    <name>ТоварыДляПеремещения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товары для перемещения</value>
+    </synonym>
+    <attributes uuid="444b1c78-988d-46ec-922b-fa926a2dc58f">
+      <name>Номенклатура</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f112a171-697b-421f-9651-b8c7f945a4e2">
+      <name>Активна</name>
+      <synonym>
+        <key>ru</key>
+        <value>Активна</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="d3d3be39-5e40-4efb-a4c3-555dd49c4716">
+    <producedTypes>
+      <objectType typeId="f061aa17-dc6f-4bc3-a0c0-e58940db8e98" valueTypeId="17426c62-efa0-4952-ab90-116ce16ac1f1"/>
+      <rowType typeId="0311e21e-2952-4532-972b-b2abc2a08ebb" valueTypeId="7a4ae155-c6a5-441d-ad72-22365f32536a"/>
+    </producedTypes>
+    <name>МатрицаВыпуска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Матрица выпуска</value>
+    </synonym>
+    <attributes uuid="36d27db4-4069-404e-aee6-3cb2f65d62a1">
+      <name>Страница</name>
+      <synonym>
+        <key>ru</key>
+        <value>Страница</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СтраницыФорм</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="46fa08d6-d94c-49d5-b609-9469bf317390">
+      <name>Спецификация</name>
+      <synonym>
+        <key>ru</key>
+        <value>Спецификация</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.РесурсныеСпецификации</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0fde5b1e-6fea-4415-916f-245ec6df5dbb">
+      <name>Активна</name>
+      <synonym>
+        <key>ru</key>
+        <value>Активна</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0ccaccae-717c-4d24-ae0e-a108c4701dd5">
+      <name>ЗаполнятьКолонкуПланПоСпецификации</name>
+      <synonym>
+        <key>ru</key>
+        <value>Заполнять колонку план по спецификации</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="e256527c-9b2d-4902-9279-2623d9f8bc7d">
+    <producedTypes>
+      <objectType typeId="52182262-b591-45be-8228-40704ccad41e" valueTypeId="b6b234a5-bb74-4616-808e-dd08ea57c1ed"/>
+      <rowType typeId="731b38ae-984e-4f25-ab56-671a0a85579e" valueTypeId="4e12b474-47d0-4983-8a52-63a27357d4ad"/>
+    </producedTypes>
+    <name>СкладыПолучатели</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склады получатели</value>
+    </synonym>
+    <attributes uuid="e1554022-9b75-47d6-8c1e-e6ab55d6c23b">
+      <name>Склад</name>
+      <synonym>
+        <key>ru</key>
+        <value>Склад</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Склады</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="d81a1a2c-c736-4081-bc01-9fc271b17706">
+    <producedTypes>
+      <objectType typeId="f1dbe325-6b78-46fa-aa6e-78d933ebcaf9" valueTypeId="3ea8ea42-cce1-4814-bee8-99c1e2721cad"/>
+      <rowType typeId="be9b6e18-e185-41ba-a6a3-8fa1835ce829" valueTypeId="df51d83b-2eb3-4cfc-80b6-63fecfae99ae"/>
+    </producedTypes>
+    <name>СкладыОтправители</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склады отправители</value>
+    </synonym>
+    <attributes uuid="595774c6-73b6-4f3c-80a2-461492ef8e9d">
+      <name>Склад</name>
+      <synonym>
+        <key>ru</key>
+        <value>Склад</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Склады</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Catalog>

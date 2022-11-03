@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1c5352b9-d437-4178-b39b-8d4c52220d0f">
+  <producedTypes>
+    <managerType typeId="3b3a556b-1408-4e05-a090-8f462f4f01de" valueTypeId="00c85ccf-2127-405d-898e-2e98b2a9d402"/>
+    <valueManagerType typeId="77b906fe-18c7-4e56-890e-09a9f9973760" valueTypeId="5d2b4069-2b4b-44b9-a766-e622b2e908f6"/>
+    <valueKeyType typeId="227b8de8-1f08-49ac-8321-e6fc56904336" valueTypeId="516155eb-29d3-4d90-b4a1-3a099ee203d5"/>
+  </producedTypes>
+  <name>весАльма</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вес альма</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+      <scale>3</scale>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

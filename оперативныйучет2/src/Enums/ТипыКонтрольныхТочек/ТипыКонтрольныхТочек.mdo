@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f55b99ca-caa3-4f6c-b85e-499881ecf376">
+  <producedTypes>
+    <refType typeId="cf4ed6b0-796b-4630-b684-ee172e316ee8" valueTypeId="9e44cb65-a489-48f1-8fa8-842db2309e79"/>
+    <listType typeId="ba49b14e-471e-4618-beeb-b38b88195987" valueTypeId="6d93f12d-e132-4d3e-8667-fe98a97a04d3"/>
+    <managerType typeId="35af4eac-f29d-4bf4-b4ef-b737bb03bf76" valueTypeId="9aee0492-ec41-4b64-8f85-b3522be051e9"/>
+  </producedTypes>
+  <name>ТипыКонтрольныхТочек</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы контрольных точек</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d5d1e978-37b0-4abb-a0fa-5a472dee0aeb">
+    <name>Приемка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приемка продукции</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d1c2d9df-119d-4153-aa7c-15ed6d38e666">
+    <name>Распил</name>
+    <synonym>
+      <key>ru</key>
+      <value>Распил продукции</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="972795b1-22d9-4243-bb60-ff46bc5b0c09">
+    <name>Фасовка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фасовка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="57d3ed36-4188-4d98-96c3-e0cdc2b83c43">
+    <name>СоставлениеФаршей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Составление фаршей</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="eaa57f76-b4ec-4a80-aadc-0c9c7bc4be07">
+    <name>УпаковкаВОболочку</name>
+    <synonym>
+      <key>ru</key>
+      <value>Упаковка в оболочку</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="da7a7600-6ffd-46e7-8cbb-3f5e77a4d9b4">
+    <name>ТермическаяОбработка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Термическая обработка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5c2dc005-0c17-48fd-b67c-eef7d0823072">
+    <name>Упаковка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Упаковка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="267f6993-be4c-4135-90b9-3b5ffa7f68f8">
+    <name>Инъектировка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инъектировка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0d4ee952-c425-449a-b788-5d45a5576a4b">
+    <name>Продажа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продажа</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

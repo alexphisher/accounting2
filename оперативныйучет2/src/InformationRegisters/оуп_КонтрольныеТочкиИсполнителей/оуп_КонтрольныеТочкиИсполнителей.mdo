@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6bfc2bf6-4323-4cf1-950b-a30a952f731b">
+  <producedTypes>
+    <selectionType typeId="8d617546-b902-40db-9ccb-1b1b7df585c1" valueTypeId="e6503bbb-5905-43bf-a109-29bc7231dbf6"/>
+    <listType typeId="04a4a43b-c091-4743-9701-18cfdaf862b8" valueTypeId="b488d2c5-e9f1-48b5-9e43-170fab0d645a"/>
+    <managerType typeId="3bdcd192-1a2c-45cb-8261-2c8021be71d6" valueTypeId="27a174f7-f3de-4a2b-9a1d-b5dd9f785929"/>
+    <recordSetType typeId="2597dba7-6fc5-4173-9dbd-ef86dea0148e" valueTypeId="f874820e-cc89-4037-8fb2-b435fe7349db"/>
+    <recordKeyType typeId="4d64325b-7068-436f-aa8d-40e93f8badf0" valueTypeId="dbf392a0-637e-4086-937f-0f2283d858b7"/>
+    <recordType typeId="bcd04961-b248-4187-ab2a-04411eed259c" valueTypeId="12299108-b9a9-49d9-8b19-f489e6d0aecc"/>
+    <recordManagerType typeId="0c0fa58d-2729-4ff9-867d-0ac5dd50a588" valueTypeId="dfa88f77-74be-48ce-a4a5-3a6012342359"/>
+  </producedTypes>
+  <name>оуп_КонтрольныеТочкиИсполнителей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контрольные точки исполнителей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="c747846f-09df-41c6-8bea-927caa4aab4f">
+    <name>КонтрольнаяТочка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрольная точка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КонтрольнаяТочка</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="94f8ed27-6e8b-4fbd-828d-ace15ecabbcc">
+    <name>ЗапускатьРабочийСтол</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запускать рабочий стол</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="88182030-e3a3-427f-9eb0-8b674d00456b">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

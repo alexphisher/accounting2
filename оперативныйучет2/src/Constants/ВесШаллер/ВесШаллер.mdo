@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c0b1c888-5850-4f99-94aa-e638f37534e9">
+  <producedTypes>
+    <managerType typeId="5a91ce07-5e41-43f7-bd59-ac5ccbd43c53" valueTypeId="c3cd7263-0b48-45ef-b93f-6a6277a51876"/>
+    <valueManagerType typeId="48248f77-538a-489c-b2b7-3293a89cc564" valueTypeId="a758032d-4338-401e-b57e-f662b847daa5"/>
+    <valueKeyType typeId="dc706d50-075e-4571-b173-ce2cf63ec6ad" valueTypeId="6cd1df37-592a-45f2-9e71-e5b5f5d697ae"/>
+  </producedTypes>
+  <name>ВесШаллер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вес шаллер</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+      <scale>3</scale>
+    </numberQualifiers>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

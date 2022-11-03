@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4080ac40-a1c4-4c05-93ed-c10895515a65">
+  <name>оуп_ОсновнаяРоль</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основная роль</value>
+  </synonym>
+</mdclass:Role>

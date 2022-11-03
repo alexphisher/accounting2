@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a0bf5f86-ea23-49bd-bb50-54a4fad5ee81">
+  <name>оуп_ИсполнительЛинииРаспила</name>
+  <synonym>
+    <key>ru</key>
+    <value>Исполнитель линии распила</value>
+  </synonym>
+</mdclass:Role>

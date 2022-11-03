@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fc7d2084-6a32-44cc-a917-34a72634d95d">
+  <producedTypes>
+    <managerType typeId="2ec57eff-e229-4647-b5b9-af4388b820c6" valueTypeId="da15aa64-4773-4d9d-a377-22906ed02c50"/>
+    <valueManagerType typeId="2632e7cc-4f2f-4cf2-813a-d3e0f8a994ee" valueTypeId="5e276be0-bf7e-44cd-b7d3-9509cf7f7d91"/>
+    <valueKeyType typeId="21a8df38-c787-491a-b71c-920c105608dd" valueTypeId="330ef705-9665-4ddd-8dc8-dd49b296b5f9"/>
+  </producedTypes>
+  <name>ГруппаТоваровСпеций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Группа товаров специй</value>
+  </synonym>
+  <comment>Папка товаров со специями</comment>
+  <type>
+    <types>CatalogRef.Номенклатура</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <choiceFoldersAndItems>Folders</choiceFoldersAndItems>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

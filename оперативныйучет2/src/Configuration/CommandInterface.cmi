@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <subsystemsVisibility>
+    <visibilityFragments>
+      <subsystem>8d69f4b4-3a85-4d4c-8428-1ec79af72f72</subsystem>
+      <visible>
+        <common>true</common>
+        <for>
+          <value>true</value>
+          <role>Role.оуп_ПриемПродукции</role>
+        </for>
+        <for>
+          <value>true</value>
+          <role>Role.оуп_ИсполнительЛинииРаспила</role>
+        </for>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <subsystem>Subsystem.оуп_MES</subsystem>
+      <visible>
+        <common>true</common>
+        <for>
+          <value>true</value>
+          <role>Role.оуп_ПриемПродукции</role>
+        </for>
+        <for>
+          <value>true</value>
+          <role>Role.оуп_ИсполнительЛинииРаспила</role>
+        </for>
+      </visible>
+    </visibilityFragments>
+  </subsystemsVisibility>
+  <subsystemsOrder>
+    <subsystems>8d69f4b4-3a85-4d4c-8428-1ec79af72f72</subsystems>
+    <subsystems>Subsystem.оуп_MES</subsystems>
+  </subsystemsOrder>
+</cmi:CommandInterface>

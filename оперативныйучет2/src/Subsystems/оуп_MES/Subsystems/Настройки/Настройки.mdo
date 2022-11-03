@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2dfc62b0-9adc-400a-9fd6-dde04b18878f">
+  <name>Настройки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.ВесыКонтрольныхТочек</content>
+  <content>Catalog.КонтрольнаяТочка</content>
+  <content>Catalog.СтраницыФорм</content>
+  <content>Enum.ТипыКонтрольныхТочек</content>
+  <content>Role.оуп_ОсновнаяРоль</content>
+  <content>SessionParameter.оуп_ТекущаяКонтрольнаяТочка</content>
+  <content>InformationRegister.оуп_КонтрольныеТочкиИсполнителей</content>
+  <content>CommonForm.оуп_ОсновныеПараметрыРаботы</content>
+  <content>InformationRegister.НастройкиПередачиВПереработку</content>
+  <parentSubsystem>Subsystem.оуп_MES</parentSubsystem>
+</mdclass:Subsystem>

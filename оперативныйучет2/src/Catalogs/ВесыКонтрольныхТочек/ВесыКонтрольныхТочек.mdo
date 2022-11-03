@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="be9c4a9f-8912-4840-b122-182880349d6d">
+  <producedTypes>
+    <objectType typeId="8e6be849-1cce-470d-ae9f-3e83125fac3f" valueTypeId="1ab91ad9-e722-47c1-894d-e02ebd3ad37c"/>
+    <refType typeId="da93137e-0df6-490f-9f58-b9574001388d" valueTypeId="2fe2f173-1ccd-49a0-9b5f-eb6d2cc9c55b"/>
+    <selectionType typeId="b2e46ee9-0d4e-4267-b27e-3bdcd43b57b7" valueTypeId="6a827c37-60cd-4564-98ae-1099c1f9e2d9"/>
+    <listType typeId="92865391-55a8-4048-a598-3b72158634d7" valueTypeId="13c5b700-8444-46d2-9714-78b401017bbe"/>
+    <managerType typeId="adae6528-e71d-4e61-8afc-3e96deb81e52" valueTypeId="5d9adb01-9632-4d95-aa03-2d70375471f2"/>
+  </producedTypes>
+  <name>ВесыКонтрольныхТочек</name>
+  <synonym>
+    <key>ru</key>
+    <value>Весы контрольных точек</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВесыКонтрольныхТочек.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ВесыКонтрольныхТочек.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="30929b7d-06ac-4f34-9a23-6eeccd75b86a">
+    <name>ip</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ip</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="892b4c5f-985e-4f78-86ab-1dcda244d6d6">
+    <name>port</name>
+    <synonym>
+      <key>ru</key>
+      <value>Port</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="929a071d-ade0-4284-8e89-3960636ed508">
+    <name>connect</name>
+    <synonym>
+      <key>ru</key>
+      <value>Connect</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="878d77e6-4177-4fca-af74-06103917456e">
+    <name>путьДоКомпоненты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь до компоненты</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

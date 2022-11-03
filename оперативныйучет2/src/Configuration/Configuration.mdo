@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c057b50e-0c32-4de8-b5ac-ff80f3c88dc8">
+  <name>ОперативныйУчетПроизводства2</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оперативный учет производства2</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <usePurposes>Checked</usePurposes>
+    <sessionModule>Extended</sessionModule>
+    <commandInterface>Extended</commandInterface>
+    <homePageWorkArea>Extended</homePageWorkArea>
+    <defaultLanguage>Checked</defaultLanguage>
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+    <compatibilityMode>Checked</compatibilityMode>
+    <defaultStyle>Extended</defaultStyle>
+    <defaultRoles>Extended</defaultRoles>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="bd6686f5-bccf-4c49-8abd-705c1bf9a2f5"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="a43b4a27-ec39-4c83-a1c8-7dcdcae63da3"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="ccbb2997-1357-4cbe-9ce8-af746de496c8"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="7189852d-6bda-4570-a350-cb9f62a391c0"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="efe000d1-415c-4fd4-8818-55ea1258a220"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="9c81ae79-0775-4587-a821-81392b3d92db"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="672fb754-cf98-46df-a26b-403ce2677214"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>оуп_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.17</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>Customization</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultRoles>Role.оуп_ОсновнаяРоль</defaultRoles>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
+  <compatibilityMode>8.3.17</compatibilityMode>
+  <languages uuid="766fc81c-e021-4093-8710-638cee8b5cd6">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.оуп_MES</subsystems>
+  <commonPictures>CommonPicture.СтатусыУказанияСерий</commonPictures>
+  <commonPictures>CommonPicture.СерииНоменклатурыКолонкаСтатусов</commonPictures>
+  <sessionParameters>SessionParameter.оуп_ТекущаяКонтрольнаяТочка</sessionParameters>
+  <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
+  <roles>Role.оуп_ИсполнительЛинииРаспила</roles>
+  <roles>Role.оуп_ОсновнаяРоль</roles>
+  <roles>Role.оуп_ПриемПродукции</roles>
+  <commonModules>CommonModule.оуп_ПриемПродукцииСервер</commonModules>
+  <commonModules>CommonModule.оуп_ПередачаВПереработку</commonModules>
+  <commonModules>CommonModule.оуп_ПередачаВПереработкуВызовСервера</commonModules>
+  <definedTypes>DefinedType.РаспоряжениеНаПоступление</definedTypes>
+  <definedTypes>DefinedType.ДенежнаяСуммаНеотрицательная</definedTypes>
+  <definedTypes>DefinedType.ДенежнаяСуммаЛюбогоЗнака</definedTypes>
+  <constants>Constant.ПроцентДопустимогоОтклонения</constants>
+  <constants>Constant.весАльма</constants>
+  <constants>Constant.ВесГофрокороб</constants>
+  <constants>Constant.ВесЯщикНовый</constants>
+  <constants>Constant.ВесЯщикЦелый</constants>
+  <constants>Constant.ВесСетка</constants>
+  <constants>Constant.ВесШаллер</constants>
+  <constants>Constant.СкладСпеций</constants>
+  <constants>Constant.ГруппаТоваровСпеций</constants>
+  <constants>Constant.ПроверятьПроцентПотерь</constants>
+  <commonForms>CommonForm.оуп_ОсновныеПараметрыРаботы</commonForms>
+  <catalogs>Catalog.ВесыКонтрольныхТочек</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.СтруктураПредприятия</catalogs>
+  <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.КонтрольнаяТочка</catalogs>
+  <catalogs>Catalog.Склады</catalogs>
+  <catalogs>Catalog.Организации</catalogs>
+  <catalogs>Catalog.ДоговорыКонтрагентов</catalogs>
+  <catalogs>Catalog.Партнеры</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.СтраницыФорм</catalogs>
+  <catalogs>Catalog.РесурсныеСпецификации</catalogs>
+  <catalogs>Catalog.СкладскиеПомещения</catalogs>
+  <catalogs>Catalog.СерииНоменклатуры</catalogs>
+  <catalogs>Catalog.ХарактеристикиНоменклатуры</catalogs>
+  <catalogs>Catalog.УпаковкиЕдиницыИзмерения</catalogs>
+  <catalogs>Catalog.Назначения</catalogs>
+  <catalogs>Catalog.Валюты</catalogs>
+  <catalogs>Catalog.ВидыЦенПоставщиков</catalogs>
+  <catalogs>Catalog.СтавкиНДС</catalogs>
+  <catalogs>Catalog.НоменклатураКонтрагентов</catalogs>
+  <documents>Document.оуп_СтрокаОтчетаПроизводстваВыпускПодукции</documents>
+  <documents>Document.оуп_СтрокаОтчетаПроизводстваСписаниеМатериалов</documents>
+  <documents>Document.оуп_СтрокаПеремещенияПродукцииВПроизводстве</documents>
+  <documents>Document.УпаковочныйЛист</documents>
+  <documents>Document.ПриобретениеТоваровУслуг</documents>
+  <documents>Document.оуп_ПакетДокументовПередачиПереработчику</documents>
+  <documents>Document.ПередачаТоваровХранителю</documents>
+  <enums>Enum.ТипыКонтрольныхТочек</enums>
+  <enums>Enum.ХозяйственныеОперации</enums>
+  <enums>Enum.СтатусыДоговоровКонтрагентов</enums>
+  <enums>Enum.ТипыНоменклатуры</enums>
+  <enums>Enum.ТипыНалогообложенияНДС</enums>
+  <enums>Enum.СпособыДоставки</enums>
+  <enums>Enum.ВариантыПриемкиТоваров</enums>
+  <dataProcessors>DataProcessor.оуп_РабочийСтол</dataProcessors>
+  <dataProcessors>DataProcessor.оуп_ЛинияРаспила</dataProcessors>
+  <dataProcessors>DataProcessor.оуп_ПриемПродукции</dataProcessors>
+  <informationRegisters>InformationRegister.оуп_КонтрольныеТочкиИсполнителей</informationRegisters>
+  <informationRegisters>InformationRegister.НастройкиПередачиВПереработку</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.оуп_ПартииВыпускаПродукции</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.оуп_ДанныеВыпускаПродукции</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.оуп_ДанныеМатериаловВыпуска</accumulationRegisters>
+</mdclass:Configuration>

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bdb33a0e-f879-48b5-8cfb-fd3f2bb179e4">
+  <producedTypes>
+    <selectionType typeId="19293826-bae0-4fd1-9411-c2dfa538cc1d" valueTypeId="365ddbe8-b852-447a-a94d-eb9d630d9ccf"/>
+    <listType typeId="945df637-1041-452a-97d0-168c250a9f62" valueTypeId="b28cd42b-f043-438f-807a-7517eda26356"/>
+    <managerType typeId="97345669-d283-40da-ae4e-0f031cbbe1ee" valueTypeId="196730a6-086b-46f1-b1de-e7bbe0de7d20"/>
+    <recordSetType typeId="70b59ecc-1b61-4479-8e20-5d6c7a736136" valueTypeId="765fddaf-7fbe-4111-95c0-bf0c21c91e50"/>
+    <recordKeyType typeId="77bb78a1-fb49-4e0e-967f-ccee427b7962" valueTypeId="22f2c226-2d05-47fa-bec6-059dc4375161"/>
+    <recordType typeId="e0755c1e-5000-4db5-b57a-50ed895eb38e" valueTypeId="c6ba77d9-9003-46cd-8dfa-0fa3911c805c"/>
+    <recordManagerType typeId="e676829f-88ea-40c4-b812-db62e3c7aeff" valueTypeId="c03c544b-9442-4338-ac0f-85ec6d2213f8"/>
+  </producedTypes>
+  <name>НастройкиПередачиВПереработку</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки передачи в переработку</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="dc883d8c-74d3-4ad7-aa60-e8cb5a031c2f">
+    <name>ФормироватьДокументыПередачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Формировать документы передачи</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="e8949fb0-e6fa-4c3c-8a71-654847ff0835">
+    <name>СкладПоступленияОтДавальца</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад поступления от давальца</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Склады</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="3d0acb55-9a6d-4eac-b657-aa5587211e38">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="72ff3585-7a5e-467a-9783-a6d2dcca6df8">
+    <name>ПереработчикПартнер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Переработчик партнер</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Партнеры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="2eaa4aac-b3ff-44ae-b9b5-4ed94214dcdc">
+    <name>ДоговорПереработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор переработки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДоговорыКонтрагентов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameterLinks>
+      <name>Организация</name>
+      <field>InformationRegister.НастройкиПередачиВПереработку.Dimension.Организация</field>
+    </choiceParameterLinks>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="a7e8edf8-d05f-4c60-977e-3a40d1a8784f">
+    <name>ОрганизацияПереаботчик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация переаботчик</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="2b83a7fa-5734-49a1-bd16-bd1b16a74d3f">
+    <name>ПартнерДавалецСырья</name>
+    <synonym>
+      <key>ru</key>
+      <value>Партнер давалец сырья</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Партнеры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="7369e0fc-4411-4534-bb5b-1940b3621b09">
+    <name>ДоговорПоступленияСырья</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор поступления сырья</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДоговорыКонтрагентов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ffeaf8e6-d6e3-4ee8-b434-cd8907607faf">
+  <name>ПриемПродукции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Прием продукции</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>DataProcessor.оуп_ПриемПродукции</content>
+  <parentSubsystem>Subsystem.оуп_MES</parentSubsystem>
+</mdclass:Subsystem>
