@@ -49,6 +49,7 @@
   <subsystems>Subsystem.оуп_MES</subsystems>
   <commonPictures>CommonPicture.СтатусыУказанияСерий</commonPictures>
   <commonPictures>CommonPicture.СерииНоменклатурыКолонкаСтатусов</commonPictures>
+  <commonPictures>CommonPicture.оуп_СтраницаФормы</commonPictures>
   <sessionParameters>SessionParameter.оуп_ТекущаяКонтрольнаяТочка</sessionParameters>
   <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
   <roles>Role.оуп_ИсполнительЛинииРаспила</roles>
@@ -57,6 +58,7 @@
   <commonModules>CommonModule.оуп_ПриемПродукцииСервер</commonModules>
   <commonModules>CommonModule.оуп_ПередачаВПереработку</commonModules>
   <commonModules>CommonModule.оуп_ПередачаВПереработкуВызовСервера</commonModules>
+  <commonModules>CommonModule.оуп_ФормированиеФорм</commonModules>
   <definedTypes>DefinedType.РаспоряжениеНаПоступление</definedTypes>
   <definedTypes>DefinedType.ДенежнаяСуммаНеотрицательная</definedTypes>
   <definedTypes>DefinedType.ДенежнаяСуммаЛюбогоЗнака</definedTypes>
