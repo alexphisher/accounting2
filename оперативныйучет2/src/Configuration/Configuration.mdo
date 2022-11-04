@@ -117,4 +117,5 @@
   <accumulationRegisters>AccumulationRegister.оуп_ДанныеВыпускаПродукции</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.оуп_ДанныеМатериаловВыпуска</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ТоварыОрганизаций</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ТоварыНаСкладах</accumulationRegisters>
 </mdclass:Configuration>
