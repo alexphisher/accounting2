@@ -92,6 +92,8 @@
   <catalogs>Catalog.ВидыЦенПоставщиков</catalogs>
   <catalogs>Catalog.СтавкиНДС</catalogs>
   <catalogs>Catalog.НоменклатураКонтрагентов</catalogs>
+  <catalogs>Catalog.КлючиАналитикиУчетаНоменклатуры</catalogs>
+  <catalogs>Catalog.ВидыЗапасов</catalogs>
   <documents>Document.оуп_СтрокаОтчетаПроизводстваВыпускПодукции</documents>
   <documents>Document.оуп_СтрокаОтчетаПроизводстваСписаниеМатериалов</documents>
   <documents>Document.оуп_СтрокаПеремещенияПродукцииВПроизводстве</documents>
@@ -114,4 +116,5 @@
   <accumulationRegisters>AccumulationRegister.оуп_ПартииВыпускаПродукции</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.оуп_ДанныеВыпускаПродукции</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.оуп_ДанныеМатериаловВыпуска</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ТоварыОрганизаций</accumulationRegisters>
 </mdclass:Configuration>

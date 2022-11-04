@@ -197,6 +197,15 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="90d25931-c529-4353-b9a7-eac04ee5c554">
+    <name>ФормаПодборОстатки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма подбор остатки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <tabularSections uuid="6bce5be7-8b94-4903-94bc-c294cb14e376">
     <producedTypes>
       <objectType typeId="69827fdc-db44-46c0-8d3d-3a2398b89ddc" valueTypeId="2a40813e-53d2-4ae6-9c88-c2353f478094"/>
