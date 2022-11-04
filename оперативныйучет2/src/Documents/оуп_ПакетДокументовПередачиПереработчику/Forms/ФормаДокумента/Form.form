@@ -1168,6 +1168,10 @@
             </userVisible>
             <horizontalAlign>Left</horizontalAlign>
           </autoCommandBar>
+          <handlers>
+            <event>Selection</event>
+            <name>Документы1Выбор</name>
+          </handlers>
           <searchStringAddition>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1520,6 +1524,10 @@
   <handlers>
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
+  </handlers>
+  <handlers>
+    <event>ChoiceProcessing</event>
+    <name>ОбработкаВыбора</name>
   </handlers>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
