@@ -12,4 +12,52 @@
   <extension xsi:type="mdclassExtension:CatalogExtension">
     <extendedConfigurationObject>Checked</extendedConfigurationObject>
   </extension>
+  <tabularSections uuid="6e6d0f18-6b9b-450e-88e6-d69eeead8064" extendedConfigurationObject="c760a5ad-a536-49ec-816d-fad0d87140f3">
+    <producedTypes>
+      <objectType typeId="ec1f51ca-dce9-4e9f-a0f3-7778a1be8ec7" valueTypeId="abe18923-0505-47f5-b683-bf495c99e48e"/>
+      <rowType typeId="07a0ff7d-bd43-43be-b928-f9f5bd41454b" valueTypeId="ac41e9f5-1375-4192-8b01-754518436d6e"/>
+    </producedTypes>
+    <name>ВыходныеИзделия</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+    <attributes uuid="887d688a-f9dc-40c9-b97e-07d84792f4fc" extendedConfigurationObject="902506bc-c31b-468b-8f65-73e4c9317c8a">
+      <name>Номенклатура</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>CatalogRef.Номенклатура</type>
+          </types>
+        </typeExtension>
+      </extension>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="4355a9fe-5cba-40b1-a9fd-a6767bc977df" extendedConfigurationObject="f3f60468-b96f-4528-8adc-5b0b567a3e3d">
+    <producedTypes>
+      <objectType typeId="38d75faf-c3c0-4d18-9303-a42b8c72f1da" valueTypeId="b0e8b918-c9a5-4dc8-97e0-e0038651826d"/>
+      <rowType typeId="571fb228-9739-4186-8220-f5f7ee4b8f60" valueTypeId="97ab1388-d2cd-4770-94ad-8d1145d90e77"/>
+    </producedTypes>
+    <name>МатериалыИУслуги</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+    <attributes uuid="2d5b5265-ff0c-44b7-bbbf-088b952a183d" extendedConfigurationObject="e3112143-6304-49ed-abcf-b14fe2425c34">
+      <name>Номенклатура</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>CatalogRef.Номенклатура</type>
+          </types>
+        </typeExtension>
+      </extension>
+    </attributes>
+  </tabularSections>
 </mdclass:Catalog>
