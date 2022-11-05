@@ -20,6 +20,15 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="b33e5497-13ed-4994-b03f-8ecc6d009788">
+    <name>ЗаполнениеПоСпецификации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заполнение по спецификации</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <commands uuid="58ef95eb-3649-4585-820e-fcf832a146f2">
     <name>ЛинияРаспила</name>
     <synonym>

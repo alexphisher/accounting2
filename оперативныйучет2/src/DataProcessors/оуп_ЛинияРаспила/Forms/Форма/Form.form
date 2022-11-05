@@ -244,6 +244,23 @@
       <common>true</common>
     </edit>
   </attributes>
+  <formCommands>
+    <name>ЗаполнитьДанныеВыпускаПоСпецификации</name>
+    <title>
+      <key>ru</key>
+      <value>Заполнить данные выпуска по спецификации</value>
+    </title>
+    <id>1</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ЗаполнитьДанныеВыпускаПоСпецификации</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>
