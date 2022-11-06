@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d90db4d3-20ad-4818-b726-5a598e61483d">
+  <name>ФормаВводКоличества</name>
+  <synonym>
+    <key>ru</key>
+    <value>Форма ввод количества</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

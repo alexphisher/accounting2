@@ -59,6 +59,9 @@
   <commonModules>CommonModule.оуп_ПередачаВПереработку</commonModules>
   <commonModules>CommonModule.оуп_ПередачаВПереработкуВызовСервера</commonModules>
   <commonModules>CommonModule.оуп_ФормированиеФорм</commonModules>
+  <commonModules>CommonModule.оуп_ОтчетВыпускаВызовСервера</commonModules>
+  <commonModules>CommonModule.оуп_УправлениеВесамиКлиент</commonModules>
+  <commonModules>CommonModule.оуп_УправлениеВесамиВызовСервера</commonModules>
   <definedTypes>DefinedType.РаспоряжениеНаПоступление</definedTypes>
   <definedTypes>DefinedType.ДенежнаяСуммаНеотрицательная</definedTypes>
   <definedTypes>DefinedType.ДенежнаяСуммаЛюбогоЗнака</definedTypes>
@@ -73,6 +76,7 @@
   <constants>Constant.ГруппаТоваровСпеций</constants>
   <constants>Constant.ПроверятьПроцентПотерь</constants>
   <commonForms>CommonForm.оуп_ОсновныеПараметрыРаботы</commonForms>
+  <commonForms>CommonForm.ФормаВводКоличества</commonForms>
   <catalogs>Catalog.ВесыКонтрольныхТочек</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.СтруктураПредприятия</catalogs>
